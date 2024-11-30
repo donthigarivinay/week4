@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Python execution'){
             steps{
-               bat 'C:\\windows\\py.exe code.py'
+               bat 'python code.py'
             }
         }
     }
